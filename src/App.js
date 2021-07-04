@@ -87,13 +87,11 @@ function App() {
   return (
     <div className="App">
       <table>
-
-          <ColumnHeaders />
-        </table>
+        <ColumnHeaders />
+      </table>
         
-          {myInputs}
+      {myInputs}
         
-      
     </div>
   );
 }
